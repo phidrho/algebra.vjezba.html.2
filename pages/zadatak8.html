@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML vjezbe 2</title>
+</head>
+
+<body>
+    <h1>HTML vjezbe 2</h1>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Naslovnica</a></li>
+                <li><a href="./page1.html">Page1</a></li>
+                <li><a href="#">Zadatak8</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Zadatak 8 - forme</h2>
+
+    <ul>
+        <li><a href="#signup">Sign Up</a></li>
+        <li><a href="#login">Log In</a></li>
+    </ul>
+    <hr>
+    <div id="signup">
+        <h3>Sing Up for Free</h3>
+
+        <form action="/" method="post">
+            <label for="firstname">First Name * </label><input type="text" name="firstname" required autocomplete="off">
+            <br>
+            <label for="lastname">Last Name * </label><input type="text" name="lastname" required autocomplete="off">
+            <br>
+            <label for="email">Email Address * </label><input type="email" name="email" required autocomplete="off">
+            <br>
+            <label for="password">Password * </label><input type="password" name="password" required autocomplete="off">
+            <br>
+            <button type="submit">Sign In</button>
+        </form>
+    </div>
+    <hr>
+    <div id="login">
+        <h3>Welcome Back!</h3>
+        <form action="/" method="post">
+            <label for="email">Email Address * </label><input type="email" name="email" required>
+            <br>
+            <label for="password">Password * </label><input type="password" name="password" required>
+            <br>
+            <p><a href="#">Forgot password?</a></p>
+            <button type="submit">Log In</button>
+        </form>
+    </div>
+</body>
+
+</html>
