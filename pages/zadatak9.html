@@ -23,7 +23,7 @@
 
     <h2>Zadatak 9 - forme</h2>
     <div id="forma">
-        <form action="/" method="post">
+        <form action="#" method="post">
             <header>
                 <h2></h2>
             </header>
@@ -31,18 +31,18 @@
             <div>
                 <input id="field1" name="field1" type="text" name="imeprezime" size="50" tabindex="1">
             </div>
-
+            <br>
             <label id="title2" for="email">Email</label>
             <div>
                 <input id="field2" name="field2" type="email" spellcheck="false" value="" maxlength="255" size="50"
                     tabindex="2">
             </div>
-
+            <br>
             <label id="title3" class="desc" for="field3">Poruka</label>
             <div>
                 <textarea id="field3" name="field3" spellcheck="true" rows="10" cols="50" tabindex="3"></textarea>
             </div>
-
+            <br>
             <div>
                 <fieldset>
                     <legend id="title4">Odaberi</legend>
@@ -66,7 +66,7 @@
                     </div>
                 </fieldset>
             </div>
-
+            <br>
             <div>
                 <fieldset>
                     <legend id="title4">Višestruki odabir</legend>
@@ -89,8 +89,23 @@
                     </div>
                 </fieldset>
             </div>
-        </form>
 
+            <br>
+
+            <div>
+                <label for="field106" id="title106">Odaberi s liste</label>
+                <div><select name="field106" id="field106" tabindex="10">
+                        <option value="prviodabir1">Prvi - 1</option>
+                        <option value="drugiodabir2">Drugi - 2</option>
+                        <option value="treciodabir3">Treci - 3</option>
+                    </select></div>
+            </div>
+
+            <br>
+
+            <div>
+                <input id="saveForm" name="saveForm" type="submit" value="Potvrdi">
+            </div>
 
         </form>
     </div>
