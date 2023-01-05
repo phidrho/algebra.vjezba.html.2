@@ -15,7 +15,8 @@
             <ul>
                 <li><a href="../index.html">Naslovnica</a></li>
                 <li><a href="./page1.html">Page1</a></li>
-                <li><a href="#">Zadatak8</a></li>
+                <li><a href="./zadatak8.html">Zadatak8</a></li>
+                <li><a href="#">Zadatak9</a></li>
             </ul>
         </nav>
     </header>
@@ -28,12 +29,13 @@
             </header>
             <label id="title1" for="imeprezime">Ime i prezime</label>
             <div>
-                <input id="field1" name="field1" type="text" name="imeprezime" size="8" tabindex="1">
+                <input id="field1" name="field1" type="text" name="imeprezime" size="50" tabindex="1">
             </div>
 
             <label id="title2" for="email">Email</label>
             <div>
-                <input id="field2" name="field2" type="email" spellcheck="false" value="" maxlength="255" tabindex="2">
+                <input id="field2" name="field2" type="email" spellcheck="false" value="" maxlength="255" size="50"
+                    tabindex="2">
             </div>
 
             <label id="title3" class="desc" for="field3">Poruka</label>
@@ -50,20 +52,46 @@
                     </div>
                     <div>
                         <input id="field5_0" name="field5" type="radio" value="PrviOdabir" tabindex="4" checked>
-                        <label class="choice" for="field5_0">Prvi Odabir</label>
+                        <label class="choice" for="field5_0">Prvi odabir</label>
                     </div>
 
                     <div>
                         <input id="field5_1" name="field5" type="radio" value="DrugiOdabir" tabindex="5">
-                        <label class="choice" for="field5_1">Drugi Odabir</label>
+                        <label class="choice" for="field5_1">Drugi odabir</label>
                     </div>
 
                     <div>
                         <input id="field5_2" name="field5" type="radio" value="TreciOdabir" tabindex="6">
-                        <label class="choice" for="field5_2">Treći Odabir</label>
+                        <label class="choice" for="field5_2">Treći odabir</label>
                     </div>
                 </fieldset>
             </div>
+
+            <div>
+                <fieldset>
+                    <legend id="title4">Višestruki odabir</legend>
+
+                    <div>
+                        <div>
+                            <input id="field6" name="field6" type="checkbox" value="prvi_odabir" tabindex="7">
+                            <label class="choice" for="field6">Prvo</label>
+                        </div>
+
+                        <div>
+                            <input id="field7" name="field7" type="checkbox" value="drugo_odabir" tabindex="8">
+                            <label class="choice" for="field7">Drugo</label>
+                        </div>
+
+                        <div>
+                            <input id="field8" name="field8" type="checkbox" value="treci_odabir" tabindex="9">
+                            <label class="choice" for="field8">Treće</label>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+        </form>
+
+
         </form>
     </div>
 
