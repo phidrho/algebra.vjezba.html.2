@@ -16,33 +16,43 @@
                 <li><a href="../index.html">Naslovnica</a></li>
                 <li><a href="./page1.html">Page1</a></li>
                 <li><a href="./zadatak8.html">Zadatak8</a></li>
-                <li><a href="#">Zadatak9</a></li>
+                <li><a href="./zadatak9.html">Zadatak9</a></li>
+                <li><a href="./zadatak10.html">Zadatak10</a></li>
+                <li><a href="#">Zadatak11</a></li>
             </ul>
         </nav>
     </header>
 
-    <h2>Zadatak 9 - forme</h2>
+    <h2>Zadatak 11 - forme div poravnanje</h2>
     <div id="forma">
         <form action="#" method="post">
             <header>
                 <h3>Responzivna forma</h3>
             </header>
-            <label id="title1" for="imeprezime">Ime i prezime</label>
-            <div>
-                <input id="field1" name="field1" type="text" name="imeprezime" size="8" tabindex="1">
+            <div style="position:absolute; top:290px; left:10px;">
+                <label id="title1" for="imeprezime">Ime i prezime</label>
+                <div>
+                    <input id="field1" name="field1" type="text" name="imeprezime" size="8" tabindex="1">
+                </div>
+
+                <br>
+                <label id="title2" for="email">Email</label>
+                <div>
+                    <input id="field2" name="field2" type="email" spellcheck="false" value="" maxlength="255"
+                        tabindex="2">
+                </div>
             </div>
-            <br>
-            <label id="title2" for="email">Email</label>
-            <div>
-                <input id="field2" name="field2" type="email" spellcheck="false" value="" maxlength="255" tabindex="2">
-            </div>
-            <br>
+
+            <div style="position:absolute; top:290px; left:230px;">
             <label id="title3" class="desc" for="field3">Poruka</label>
             <div>
                 <textarea id="field3" name="field3" spellcheck="true" rows="10" cols="50" tabindex="3"></textarea>
             </div>
-            <br>
-            <div>
+
+            </div>
+
+
+            <div style="position:absolute; top:470px; left:10px; width:290px;">
                 <fieldset>
                     <legend id="title4">Odaberi</legend>
 
@@ -66,7 +76,7 @@
                 </fieldset>
             </div>
             <br>
-            <div>
+            <div style="position:absolute; top:470px; left:300px; width:320px;">
                 <fieldset>
                     <legend id="title4">Višestruki odabir</legend>
 
@@ -89,9 +99,9 @@
                 </fieldset>
             </div>
 
-            <br>
 
-            <div>
+
+            <div style="position:absolute; top:580px; left:10px;">
                 <label for="field106" id="title106">Odaberi s liste</label>
                 <div><select name="field106" id="field106" tabindex="10">
                         <option value="prviodabir1">Prvi - 1</option>
@@ -102,7 +112,7 @@
 
             <br>
 
-            <div>
+            <div style="position:absolute; top:620px; left: 560px;">
                 <input id="saveForm" name="saveForm" type="submit" value="Potvrdi" tabindex="11">
             </div>
 
